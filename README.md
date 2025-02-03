@@ -41,7 +41,7 @@ Go to `/webserver`, start your Redis server (if it is not already running, which
 
 
 ## On the drone
-
+sudo ip addr add 194.47.249.12/255.255.255.0 dev eth0
 You need to install the Python packages in the requirements if you haven't done so already (see above instructions). 
 
 Go to `/pi`, run `drone.py`
